@@ -4,7 +4,7 @@ import csv
 
 def reader(filename):
 
-    regexp = r'\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}'
+    regexp = r'\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}' # регулярка отбирает ip адреса
 
     with open(filename) as f:
         log = f.read()
