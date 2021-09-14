@@ -22,8 +22,8 @@ def count(ips_list):
 
 def write_csv(count):
 
-    with open('output.scv', 'w') as csvfile:
-        writer = csv.writer(csvfile)
+    with open('output.scv', 'w') as csv_file:
+        writer = csv.writer(csv_file)
 
         header = ['IP', 'Frequency']
         writer.writerow(header)
