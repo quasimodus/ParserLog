@@ -22,7 +22,7 @@ def count(ips_list):
     return count
 
 
-# создает файл 'output.csv' с колонками IP и Frecuency и записывает туда IP-адреса и сколько раз они попадались с логе
+# создает файл 'output.csv' с колонками IP и Frequency и записывает туда IP-адреса и сколько раз они попадались с логе
 def write_csv(count):
 
     with open('output.scv', 'w') as csv_file:
@@ -46,7 +46,7 @@ window = sg.Window('Get filename example', layout)
 # Event Loop to process "events" and get the "values" of the inputs
 while True:
     event, values = window.read()
-    if event == 'Ok':
+    if event == sg.WIN_CLOSED or event == 'Cancel':
         break
     print('You entered ', write_csv(count(reader(values[0]))))
 
