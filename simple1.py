@@ -2,6 +2,7 @@
 import re
 from collections import Counter
 import csv
+import PySimpleGUI as sg
 
 
 # парсит IP-адреса из лога и выдает список: ['192.168.0.2', '192.168.0.2', '192.168.0.2', .....
@@ -37,13 +38,6 @@ def write_csv(count):
             writer.writerow( (item, count[item]) )
 
 
-# if __name__ == '__main__':
-#     write_csv(count(reader('src/file.log')))
-    #print('It Work!')
-    #print('Youre file: ./src/output.csv')
-
-import PySimpleGUI as sg
-
 sg.theme('DarkAmber')   # Add a touch of color
 # All the stuff inside your window.
 layout = [  [sg.Text('Filename')],
@@ -62,9 +56,4 @@ while True:
 
 window.close()
 
-
-# src/file.log
-# event, values = sg.Window('Get filename example', [ [sg.Text('Filename')],
-#                                                     [sg.Input(), sg.FileBrowse()],
-#
 
