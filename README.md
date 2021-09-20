@@ -1,7 +1,7 @@
 # log_ip_parser
 
-Сборка проекта с помощью Pyinstaller
-pip3 install pyinstaller
+<H1>Сборка проекта с помощью Pyinstaller</H1>
+<code> pip3 install pyinstaller </code>
 pyinstaller --version
 
 Наиболее часто используемые опции:
@@ -23,6 +23,8 @@ PyInstaller анализирует файл myscript.py и делает след
 
 В итоге наша команда будет выглядеть так:
 -------------------------------------------------------------
-pyinstaller --onefile --icon=name.ico --noconsole myscript.py
+<code> pyinstaller --onefile --icon=name.ico --noconsole myscript.py </code>
+
 или в нашем случае:
-pyinstaller --onefile --noconsole --icon=src\detective.ico ParserLog.py
+
+<code> pyinstaller --onefile --noconsole --icon=src\detective.ico ParserLog.py </code>
