@@ -2,6 +2,7 @@
 
 <H1>Сборка проекта с помощью Pyinstaller</H1>
 <code> pip3 install pyinstaller </code>
+
 <code> pyinstaller --version </code>
 
 Наиболее часто используемые опции:
