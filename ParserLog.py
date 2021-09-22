@@ -40,7 +40,7 @@ layout = [[sg.Text('Filename')],
           [sg.OK(), sg.Cancel()]]
 
 # Create the Window
-window = sg.Window('Get filename example', layout)
+window = sg.Window('Get me Log', layout)
 # Event Loop to process "events" and get the "values" of the inputs
 
 
