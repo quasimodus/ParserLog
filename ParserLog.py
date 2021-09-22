@@ -35,12 +35,12 @@ def write_csv(count):
 
 sg.theme('DarkAmber')  # Add a touch of color
 # All the stuff inside your window.
-layout = [[sg.Text('Filename')],
+layout = [[sg.Text('Path to logfile')],
           [sg.Input(), sg.FileBrowse()],
           [sg.OK(), sg.Cancel()]]
 
 # Create the Window
-window = sg.Window('Get me Log', layout)
+window = sg.Window('Parser IP', layout)
 # Event Loop to process "events" and get the "values" of the inputs
 
 
