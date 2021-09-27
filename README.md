@@ -1,4 +1,4 @@
-# log_ip_parser
+# ParserLog
 
 <H1>Сборка проекта с помощью Pyinstaller</H1>
 <code> pip3 install pyinstaller </code>
