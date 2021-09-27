@@ -30,4 +30,4 @@ PyInstaller анализирует файл myscript.py и делает след
 
 <code> pyinstaller --onefile --noconsole --icon=src\detective.ico ParserLog.py </code>
 
-<code> detective.ico </code> -- сборка с иконкой 
+<code> --icon=src\detective.ico </code> -- сборка с иконкой 
